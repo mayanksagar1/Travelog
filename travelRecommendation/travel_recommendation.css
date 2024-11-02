@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* adding styles and background to body */
+body {
+  background-image: url("./images/pic1.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  overflow: hidden;
+}
+
+/* basic styles and positional attributes added to header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, rgba(4, 104, 111, 0.637) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+/* this section is for logo-box on the top left corner */
+.logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-family: "Sulphur Point", "Poppins", "Nunito", "Work Sans";
+  font-size: xx-large;
+  font-weight: bold;
+}
+.logo-img {
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+/* this section is for navbar */
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#navbar a {
+  text-decoration: none;
+  color: white;
+  font-family: "Nunito", "Sulphur Point", "Poppins", "Work Sans";
+  font-size: large;
+  font-weight: 500;
+}
+#navbar a:hover {
+  font-weight: 800;
+}
+
+/* this section is for search bar on the top rigth corner */
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+#search-input {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  width: 210px;
+  font-size: 14px;
+  color: rgb(4, 103, 111);
+}
+#search-icon {
+  width: 16px;
+  height: 16px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 0 0 10px;
+}
+.buttons button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: rgb(4, 103, 111);
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+.buttons button:hover {
+  font-weight: 700;
+}
+
+/* this section is for main content */
+main {
+  display: flex;
+  height: 90vh;
+  width: 100%;
+}
+
+main .socials {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  padding: 20px;
+}
+main .socials svg {
+  cursor: pointer;
+}
+main .content-box {
+  width: 40%;
+  padding-left: 10px;
+  margin-top: 60px;
+}
+main .content-box h1 {
+  font-size: 75px;
+  font-weight: bold;
+  font-family: "Poppins", "Nunito", "Sulphur Point", "Work Sans";
+}
+
+main .content-box p {
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: "Nunito", "Sulphur Point", "Work Sans", "Poppins";
+}
+
+main .content-box button {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: 700;
+  font-family: "Nunito", "Sulphur Point", "Work Sans", "Poppins";
+  background-color: rgb(4, 103, 111);
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+main .content-box button:hover {
+  font-weight: 800;
+}
+
+/* this section is for the result box */
+main .resultbox {
+  background-color: rgba(0, 0, 0, 0.416);
+  border-radius: 20px;
+  margin: 20px;
+  width: 50%;
+  height: 90%;
+}
