@@ -161,6 +161,7 @@ main .resultbox {
   background-color: rgba(0, 0, 0, 0.416);
   border-radius: 20px;
   margin: 20px;
-  width: 50%;
+  padding: 10px;
+  width: 45%;
   height: 90%;
 }
